@@ -21,6 +21,9 @@ Rails.application.routes.draw do
  
   root 'welcome#index'
 end
+resources :articles do
+  resources :comments
+end
   # Example resource route with options:
   #   resources :products do
   #     member do
