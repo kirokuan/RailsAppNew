@@ -8,5 +8,6 @@ before_script:
 deploy:
   provider: heroku
   app: young-water-1750
+  run: "rake db:migrate"
   api_key:
     secure: "12492be99ffc8eae80d48c3714a011583c4fc23c"
