@@ -1,5 +1,6 @@
-== README
 
+== README
+{<img src="https://travis-ci.org/kirokuan/RailsAppNew.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/kirokuan/RailsAppNew]
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
